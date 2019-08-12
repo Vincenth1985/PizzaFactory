@@ -9,8 +9,5 @@ public class PizzaFactory2 extends Thread {
         return pizzaType;
     }
 
-    @Override
-    public void run() {
-        getPizzaType();
-    }
+
 }

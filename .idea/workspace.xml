@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ee98d7-b4c9-427d-a402-638a6c825df0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/services/DataWriterAndReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="360">
+              <caret line="24" column="114" selection-start-line="24" selection-start-column="114" selection-end-line="24" selection-end-column="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,20 +28,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="34" column="111" selection-start-line="34" selection-start-column="111" selection-end-line="34" selection-end-column="111" />
+            <state relative-caret-position="498">
+              <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!block;n#PizzaWareHouse#0;n#PizzaWareHouse#0" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="method#run#0;class#PizzaWareHouse#0" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
                 <element signature="method#addPizzafactory1#0;class#PizzaWareHouse#0" />
                 <element signature="method#addPizzafactory1#1;class#PizzaWareHouse#0" />
+                <element signature="e#1448#1919#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,13 +62,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,13 +96,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop1.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop2.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/services/DataWriterAndReader.java" />
-        <option value="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory2.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory1.java" />
-        <option value="$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java" />
+        <option value="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory2.java" />
+        <option value="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop1.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java" />
       </list>
     </option>
   </component>
@@ -162,7 +167,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565599165523" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565609314362" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -222,14 +227,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2401491" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2401491" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32970297" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,22 +250,29 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/be/intecbrussel/main/Main.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/PizzaFactory1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -296,40 +309,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java">
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="34" column="111" selection-start-line="34" selection-start-column="111" selection-end-line="34" selection-end-column="111" />
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="n#!!block;n#PizzaWareHouse#0;n#PizzaWareHouse#0" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="method#run#0;class#PizzaWareHouse#0" />
-            <element signature="method#addPizzafactory1#0;class#PizzaWareHouse#0" />
-            <element signature="method#addPizzafactory1#1;class#PizzaWareHouse#0" />
+            <element signature="e#165#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="360">
+          <caret line="24" column="114" selection-start-line="24" selection-start-column="114" selection-end-line="24" selection-end-column="114" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!block;n#PizzaWareHouse#0;n#PizzaWareHouse#0" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="method#addPizzafactory1#0;class#PizzaWareHouse#0" />
+            <element signature="method#addPizzafactory1#1;class#PizzaWareHouse#0" />
+            <element signature="e#1448#1919#1" />
           </folding>
         </state>
       </provider>
