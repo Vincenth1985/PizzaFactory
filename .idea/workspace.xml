@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ee98d7-b4c9-427d-a402-638a6c825df0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/services/DataWriterAndReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/services/DataWriterAndReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="371">
+              <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,20 +30,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="78" column="84" selection-start-line="78" selection-start-column="84" selection-end-line="78" selection-end-column="84" />
+            <state relative-caret-position="444">
+              <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!block;n#PizzaWareHouse#0;n#PizzaWareHouse#0" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="method#addPizzafactory1#0;class#PizzaWareHouse#0" />
-                <element signature="method#addPizzafactory1#1;class#PizzaWareHouse#0" />
-                <element signature="e#1448#1919#1" />
-                <element signature="method#sendPizzasToShops#0;class#PizzaWareHouse#0" />
-                <element signature="method#sellPizzaShop1#0;class#PizzaWareHouse#0" />
-                <element signature="method#sellPizzaShop2#0;class#PizzaWareHouse#0" />
+                <element signature="e#632#633#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#171#172#0" expanded="true" />
@@ -91,8 +95,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/services/DataWriterAndReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/File.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -112,12 +128,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/be/intecbrussel/services/DataWriterAndReader.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory1.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory2.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop1.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop2.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java" />
+        <option value="$PROJECT_DIR$/src/be/intecbrussel/services/DataWriterAndReader.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/main/Main.java" />
       </list>
     </option>
@@ -183,7 +199,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565612167048" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565617527877" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -250,7 +266,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32970297" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -271,27 +287,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/be/intecbrussel/main/Main.java</url>
-          <line>47</line>
+          <line>48</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="13" />
+          <line>31</line>
+          <properties class="be.intecbrussel.services.PizzaWareHouse" method="addPizzaFactory1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -301,26 +307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/services/DataWriterAndReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -348,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaShop2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
           <folding>
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#171#172#0" expanded="true" />
@@ -357,33 +343,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/controller/PizzaFactory1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/services/PizzaWareHouse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="78" column="84" selection-start-line="78" selection-start-column="84" selection-end-line="78" selection-end-column="84" />
+        <state relative-caret-position="444">
+          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="n#!!block;n#PizzaWareHouse#0;n#PizzaWareHouse#0" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="method#addPizzafactory1#0;class#PizzaWareHouse#0" />
-            <element signature="method#addPizzafactory1#1;class#PizzaWareHouse#0" />
-            <element signature="e#1448#1919#1" />
-            <element signature="method#sendPizzasToShops#0;class#PizzaWareHouse#0" />
-            <element signature="method#sellPizzaShop1#0;class#PizzaWareHouse#0" />
-            <element signature="method#sellPizzaShop2#0;class#PizzaWareHouse#0" />
+            <element signature="e#632#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/services/DataWriterAndReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="371">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/File.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
