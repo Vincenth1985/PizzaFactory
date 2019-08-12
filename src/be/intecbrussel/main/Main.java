@@ -14,8 +14,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        PizzaWareHouse pizzaWareHouse = new PizzaWareHouse(20);
-
+        PizzaWareHouse pizzaWareHouse = new PizzaWareHouse(100);
         PizzaFactory1 pizzaScampi = new PizzaFactory1();
         PizzaFactory2 pizzaFunghi = new PizzaFactory2();
         PizzaShop1 shop1 = new PizzaShop1();
@@ -24,6 +23,7 @@ public class Main {
 
         Thread pizzaFactory1 = new Thread(() -> pizzaWareHouse.addPizzaFactory1(pizzaWareHouse.getWareHouseList(), pizzaScampi, pizzaWareHouse.getWareHouseStock()));
         Thread pizzaFactory2 = new Thread(() -> pizzaWareHouse.addPizzaFactory2(pizzaWareHouse.getWareHouseList(), pizzaFunghi, pizzaWareHouse.getWareHouseStock()));
+
         Thread pizzaShop1 = new Thread(() -> pizzaWareHouse.sellPizzaShop1(pizzaWareHouse.getWareHouseList(), shop1));
         Thread pizzaShop2 = new Thread(() -> pizzaWareHouse.sellPizzaShop2(pizzaWareHouse.getWareHouseList(), shop2));
 
@@ -36,9 +36,10 @@ public class Main {
 
         try {
 
-            if (Paths.get("File.txt").toFile().exists() && Paths.get("File.txt").toFile().isFile()) {
+            if (Paths.get("File.txt").toFile().exists()) {
                 Paths.get("File.txt").toFile().delete();
             }
+
             System.out.println("Adding Pizza's in Warehouse is starting");
             System.out.println("=".repeat(50));
             pizzaFactory1.join();

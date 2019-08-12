@@ -14,7 +14,6 @@ public class DataWriterAndReader {
 
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(pt.toFile(),true))) {
 
-
             if (pt.toFile().isFile()) {
                 bufferedWriter.write(message);
                 bufferedWriter.newLine();
