@@ -3,6 +3,7 @@ package be.intecbrussel.services;
 import be.intecbrussel.controller.PizzaFactory1;
 import be.intecbrussel.controller.PizzaFactory2;
 import be.intecbrussel.controller.PizzaShop1;
+import be.intecbrussel.controller.PizzaShop2;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -64,18 +65,22 @@ public class PizzaWareHouse extends Thread {
         }
     }
 
-    public synchronized void sellPizzaShop1(ArrayList<String> pizzaList, PizzaShop1 pizzaShop1) {
+
+
+    public  void sellPizzaShop1(ArrayList<String> pizzaList, PizzaShop1 pizzaShop1) {
 
         while (wareHouseList.size() < wareHouseStock) {
 
-            if (wareHouseList.size() > (wareHouseStock / 2)) {
-                int randomPizzas = new Random().nextInt(wareHouseList.size() / 2);
-                System.out.println();
-                System.out.println(pizzaList.get(randomPizzas) + " Pizza - > is removed from WareHouse for " + pizzaShop1.getShop1());
-                pizzaList.remove(randomPizzas);
+            synchronized (monitor) {
+                if (wareHouseList.size() > (wareHouseStock / 3)) {
+                    int randomPizzas = new Random().nextInt(wareHouseList.size() / 2);
+                    System.out.println();
+                    System.out.println(pizzaList.get(randomPizzas) + " Pizza - > is removed from WareHouse for " + pizzaShop1.getShop1());
+                    pizzaList.remove(randomPizzas);
+                }
             }
             try {
-                Thread.sleep(1000);
+                Thread.sleep(2300);
 
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -84,7 +89,31 @@ public class PizzaWareHouse extends Thread {
     }
 
 
+    public  void sellPizzaShop2(ArrayList<String> pizzaList, PizzaShop2 pizzaShop2) {
+
+        while (wareHouseList.size() < wareHouseStock) {
+
+            synchronized (monitor) {
+                if (wareHouseList.size() > (wareHouseStock / 3)) {
+                    int randomPizzas = new Random().nextInt(wareHouseList.size() / 2);
+                    System.out.println();
+                    System.out.println(pizzaList.get(randomPizzas) + " Pizza - > is removed from WareHouse for " + pizzaShop2.getShop2());
+                    pizzaList.remove(randomPizzas);
+                }
+            }
+            try {
+                Thread.sleep(2000);
+
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }
+
+
+
+
 
 
 
